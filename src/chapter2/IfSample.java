@@ -13,7 +13,7 @@ public class IfSample {
             System.out.println(" x теперь равно y");
         }
         x = x * 2;
-        if ( x > y ) {
+        if (x > y) {
             System.out.println(" x теперь больше y");
         }
         if (x == y){
