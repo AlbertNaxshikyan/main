@@ -5,18 +5,19 @@ public class IfSample {
         int x, y;
         x = 10;
         y = 20;
-        System.out.println(" X меньше Y");
-        x = x * 2;
-        if(x==y){
-            System.out.println(" х теперь равно y");
-
-        }
-
-        {
-            System.out.println(" x теперь равно y ");
+        if (x < y) {
+            System.out.println(" X меньше Y");
         }
         x = x * 2;
-        System.out.println(" x теперь больше y");
-
+        if (x == y) {
+            System.out.println(" x теперь равно y");
+        }
+        x = x * 2;
+        if ( x > y ) {
+            System.out.println(" x теперь больше y");
+        }
+        if (x == y){
+            System.out.println(" Вы не увидите этого ");
+        }
     }
 }
