@@ -23,20 +23,18 @@ public class ForExample {
                 for (int k = 0; k <= j; k++) {
                     System.out.print("# ");
 
-                    }
+                }
 
                 System.out.println();
-                }
-            System.out.println(" End ");
-            for (int j = 5; j > 1; j--) {
-                for (int k = 0; k < j; k++) {
-                    System.out.print("#");
-
-                }
-                System.out.println();
-
-                
             }
+            System.out.println(" End ");
+            for (int j = 5; j > 0; j--) {
+                for (int k = 0; k < j; k++) {
+                    System.out.print("#  ");
+
+
+                }
+                System.out.println();
 
 
             }
@@ -46,4 +44,7 @@ public class ForExample {
 
 
     }
+
+
+}
 
